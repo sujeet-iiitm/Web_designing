@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.r,.p,.s{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+}
+.r:hover,.p:hover,.s:hover{
+    transform: scale(1.1);
+    opacity: 0.75;
+    cursor: pointer;
+    z-index: 1.5;
+    box-shadow: 2px 2px 4px 6px black;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(3);
+    gap: 3rem;
+    margin-top: 40px;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(3);
+    gap: 1rem;
+    margin-top: 40px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 560px;
+    transform: scale(3);
+    border-radius: 10   px;
+}
